@@ -1,0 +1,215 @@
+body {
+    background-color: rgb(32, 31, 31);
+    color: white;
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar */
+nav h2 {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+nav {
+    background-color: indigo;
+    width: 100%;
+    height: 50px;
+}
+
+nav li {
+    list-style: none;
+    float: right;
+}
+
+nav a {
+    color: white;
+    margin: auto 20px auto 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-top: -40px;
+}
+
+/* section about-me */
+#about-img {
+    height: 70vh;
+    background-image: url(../img/workspace.jpg);
+    background-size: cover;
+    padding-top: 15vh;
+}
+
+#about-me {
+    margin-top: 60px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#about-me p {
+    background-color: indigo;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/* paragrafos */
+p {
+    margin-left: 10px;
+}
+
+/* titulos secundarios */
+h2 {
+    margin-left: 10px;
+}
+
+/* conhecimentos */
+#conhecimentos {
+    margin-bottom: 50px;
+    padding-top: 15px;
+}
+
+#conhecimentos p {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+#conhecimentos h2 {
+   text-align: center;
+   padding-top: 20px;
+}
+
+#conhecimentos h3 {
+    text-align: center;
+}
+
+.container-habilidades {
+    display: flex;
+    flex-direction: row;
+}
+
+.lista-tec ul, .idiomas ul, .cursos ul {
+    text-align: justify;
+}
+
+.lista-tec {
+    width: 30%;
+    margin-left: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: indigo;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.idiomas {
+    width: 30%;
+    margin-left: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: indigo;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.cursos {
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: indigo;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+/* section projetos e formatação das imagens */
+.container {
+    overflow-x: scroll;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+#projetos {
+    text-align: center;
+} 
+
+#bd {
+    width: 30%;
+    margin-left: 10px;
+    text-align: right;
+}
+
+#dados {
+    width: 30%;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#tabuada {
+    width: 30%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#agenda {
+    width: 30%;
+    text-align: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* rodapé da página*/
+footer {
+    text-align: center;
+    position: absolute;
+    background-color: indigo;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+}
+
+/* estilização da scrollbar vertical */
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+    width: 10px;
+}
+
+/* estilização da scrollbar horizontal */
+.container::-webkit-scrollbar {
+    background-color: rgb(32, 31, 31);
+    width: 15px;
+    height: 10px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 20px;
+}
+
+
+
