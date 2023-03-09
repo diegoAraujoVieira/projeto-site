@@ -4,77 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link da folha de estilos -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- biblioteca Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- fonte roboto -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
     </style>
+
     <title>DEV Diego Araujo Vieira</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <h2>Dev Diego Araujo 👨‍💻</h2>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/diego-araujo-vieira-306771176/">Linkedin</a></li>
-                <li><a href="https://github.com/diegoAraujoVieira">Github</a></li>
-                <li><a href="#rodape">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+
+    <!-- header -->
+    <div class="header">
+        <h2 class="animate__backInRight">&#128187 Dev Diego Araujo Vieira</h2>
+    </div>
+
+    <!-- barra de navegação -->
+    <nav>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/diego-araujo-vieira-306771176/" target="_blank">Linkedin</a></li>
+            <li><a href="https://github.com/diegoAraujoVieira" target="_blank">Github</a></li>
+            <li><a href="#rodape">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- section about -->
+    <section id="about">
         <div id="about-img">
             <div id="about-me">
                 <h1>Quem sou eu?🤔</h1>
                 <p>Hello World!🌎 Me chamo Diego Araujo Vieira, estudante de Análise e Desenvolvimento de Sistemas (IESB).</p>
             </div>
         </div>
-    </main>
+    </section>
+
+    <!-- section conhecimentos -->
     <section id="conhecimentos">
         <h2>Conhecimentos e Habilidades🛠️</h2>
-        <p class="p1">Possuo conhecimentos em algumas tecnologias, adquiridos na faculdade e em conteúdos extras. Recentemente, concluí com êxito o teste para a certificação B1 de Inglês. Também tenho conhecimentos em áreas administrativas e de atendimento, adquiridos em meu período como Jovem Aprendiz na empresa Sabin Medicina Diagnóstica, e em cursos profissionalizantes e de aprendizagem.</p>
+        <!-- container com paragráfo centralizado -->
+        <div class="container-p">
+            <p>Possuo conhecimentos em algumas tecnologias, adquiridos na faculdade e em conteúdos extras. Atualmente no 4º semestre do curso de Análise e Desenvolvimento de Sistemas, tive a oportunidade de estudar lógica de programação através da linguagem Python. Também desenvolvi trabalhos acadêmicos de análise de dados e de backend (Django) com essa incrível linguagem. 
+            <p>Além de Python, estudei o desenvolvimento de protótipos de interface, juntamente com HMTL e CSS. Outras tecnologias que pude conhecer foram o SQL e o Javascript. Pretendo em breve me aprofundar mais nestas linguagens.</p> 
+            <p>Em relação a idiomas, possuo <a href="https://www.efset.org/cert/Qk7ZSs" target="_blank">inglês intermediário, nível B1</a>. Também tenho conhecimentos em áreas administrativas e de atendimento, adquiridos em meu período como Jovem Aprendiz na empresa Sabin Medicina Diagnóstica, e em cursos profissionalizantes e de aprendizagem.</p>
+        </div>
         <h3>Veja abaixo a minha lista de conhecimentos e habilidades:</h3>
+        <!-- listas de habilidades e conhecimentos -->
         <div class="container-habilidades">
-            <div class="lista-tec">
+            <div class="tec">
                 <h3>TECNOLOGIAS</h3>
                 <ul>
-                    <li>Python;</li>
-                    <li>HTML5;</li>
-                    <li>CSS3;</li>
-                    <li>SQL.</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
                 </ul>
             </div>
             <div class="idiomas">
                 <h3>IDIOMAS</h3>
                 <ul>
-                    <li>Inglês (B1 Intermediate).</li>
+                    <li>Inglês (B1 Intermediate)</li>
                 </ul>
             </div>
             <div class="cursos">
                 <h3>CURSOS</h3>
                 <ul>
                     <li>Análise e Desenvolvimento de Sistemas (IESB)</li>
-                    <li>Assistente Administrativo (CEBRAC);</li>
-                    <li>Pacote Office (CEBRAC).</li>
-                    <li>Aprendizagem em gestão, qualidade, atendimento e serviços (ESPRO);</li>
+                    <li>Assistente Administrativo (CEBRAC)</li>
+                    <li>Pacote Office (CEBRAC)</li>
+                    <li>Aprendizagem em gestão, qualidade, atendimento e serviços (ESPRO)</li>
                 </ul>
             </div>
         </div>
     </section>
+
+    <!-- section projetos -->
     <section id="projetos">
         <h2>Projetos📋</h2>
         <p>Veja alguns dos meus projetos:</p>
-        <div class="container">
-                <a href="https://github.com/diegoAraujoVieira/analise-de-dados"><img id="dados" src="img/dados.png" alt="análise de dados"></a>
-                <a href="https://github.com/diegoAraujoVieira/tabuada"><img id="tabuada" src="img/tabuada.png" alt="tabuada"></a>
-                <a href="https://github.com/diegoAraujoVieira/AA_Banco_de_Dados"><img id="bd" src="img/bd.png" alt="banco de dados"></a>
-                <a href="https://github.com/diegoAraujoVieira/agenda-eletronica"><img id="agenda" src="img/agenda.png" alt="agenda"></a>
+
+        <div class="galeria">
+            
+            <div class="container">
+                <a href="https://github.com/diegoAraujoVieira/analise-de-dados" target="_blank"><img id="dados" src="img/dados.png" alt="análise de dados" width="100%" height="400"></a>
+                <div class="desc">Análise de dados com Python (biblioteca Pandas)</div>
+            </div>
+
+            <div class="container">
+                <a href="https://github.com/diegoAraujoVieira/tabuada" target="_blank"><img id="tabuada" src="img/tabuada.png" alt="tabuada" width="100%" height="400"></a>
+                <div class="desc">Tabuada feita em Python</div>
+            </div>
+
+            <div class="container">
+                <a href="https://github.com/diegoAraujoVieira/AA_Banco_de_Dados" target="_blank"><img id="bd" src="img/bd.png" alt="banco de dados" width="100%" height="400"></a>
+                <div class="desc">Banco de Dados</div>
+            </div>
+
+            <div class="container">
+                <a href="https://github.com/diegoAraujoVieira/agenda-eletronica" target="_blank"><img id="agenda" src="img/agenda.png" alt="agenda" width="100%" height="400"></a>
+                <div class="desc">Agenda feita em Python</div>
+            </div>
+
+            <div class="container">
+                <a href="https://github.com/diegoAraujoVieira/tela-de-login" target="_blank"><img id="tela-de-login" src="img/tela de login.png" alt="tela de login" width="100%" height="400"></a>
+                <div class="desc">Tela de Login feita com HTLM, CSS e Javascript</div>
+            </div>
+
+            <div class="container">
+                <a href="https://github.com/diegoAraujoVieira/projeto-site" target="_blank"><img id="site" src="img/site.png" alt="site" width="100%" height="400"></a>
+                <div class="desc">Repositório deste site</div>
+            </div>
+
         </div>
     </section>
+
+    <!-- rodapé da página -->
     <section id="rodape">
         <footer>
             <h3>Se sinta à vontade para entrar em contato:</h3>
             <address><a href="mailto:diego12araujovieira@gmail.com">diego12araujovieira@gmail.com</a></address>
+            <br><br>
+            <p>Developed by Diego Araujo</p>
         </footer>
     </section>
+
 </body>
 </html>
